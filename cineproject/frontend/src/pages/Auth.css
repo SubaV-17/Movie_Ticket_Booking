@@ -1,0 +1,4 @@
+.auth-bg { min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px 16px;background:radial-gradient(ellipse 70% 50% at 50% 50%,rgba(229,9,20,.1) 0%,transparent 65%),var(--bg); }
+.auth-card { width:100%;max-width:430px;background:var(--card);border:1px solid var(--border2);border-radius:20px;padding:34px 30px;box-shadow:0 28px 70px rgba(0,0,0,.6); }
+.auth-lbl { font-size:13px;color:var(--muted2);display:block;margin-bottom:7px;font-weight:500; }
+@media(max-width:460px){ .auth-card{padding:26px 18px;border-radius:14px} }

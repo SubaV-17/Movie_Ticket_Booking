@@ -1,0 +1,8 @@
+.seats-page { padding-bottom:120px; background:radial-gradient(ellipse 80% 40% at 50% 0%,rgba(229,9,20,.06) 0%,transparent 65%),var(--bg); }
+.seat { width:32px;height:32px;border-radius:6px 6px 4px 4px;display:flex;align-items:center;justify-content:center;transition:all .15s;flex-shrink:0;cursor:pointer;border:1px solid transparent; }
+.s-avail { background:#1e2a3a;border-color:#2d3f55;color:#6b8aaa; }
+.s-avail:hover { background:rgba(229,9,20,.25);border-color:var(--red);color:#fff;transform:scale(1.12); }
+.s-sel  { background:var(--red);border-color:var(--red);color:#fff;transform:scale(1.05);box-shadow:0 0 10px rgba(229,9,20,.5); }
+.s-booked { background:#252525;border-color:#333;color:#444;cursor:not-allowed; }
+.seat-summary { position:fixed;bottom:14px;left:50%;transform:translateX(-50%);width:min(560px,calc(100% - 28px));background:linear-gradient(135deg,#160609,#1a1a2e);border:1px solid rgba(229,9,20,.55);border-radius:14px;padding:16px 22px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 14px 40px rgba(0,0,0,.6);z-index:100;flex-wrap:wrap;gap:12px;animation:fadeUp .3s ease; }
+@media(max-width:480px){ .seat{width:26px;height:26px;font-size:8px} }
