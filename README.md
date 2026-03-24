@@ -23,10 +23,7 @@ python manage.py runserver
 ### Frontend
 cd frontend  
 npm install  
-npm start  
-
-## 📷 Screenshots
-(Add screenshots here)
+npm start
 
 ## 🌐 Future Enhancements
 - Real-time seat locking
